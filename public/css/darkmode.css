@@ -1,0 +1,49 @@
+/*
+    Theme Name: Clean Site
+    Designer: Abdullah Shokr.
+    The Frist Color:#0F7FD9
+    The Second Color:#F3E53D
+    The Third Color:#111
+*/
+/*====================================================== Start Dark Mode =========================================================*/
+/* body.dark */
+/*Start Header*/
+body.dark .navbar {
+    background: #0000004a !important;
+}
+body.dark .dropdown-menu{
+    background-color: #0000004a;
+}
+body.dark .myNavbar .nav-link {
+    color: #e3e3e4 !important;
+}
+body.dark .dropdown-menu a {
+    color: #fff !important;
+}
+/*End Header*/
+/*Start Main*/
+body.dark main {
+    background-color: #1f2029;
+}
+body.dark .bg-light{
+    background-color: #2c2f43 !important;
+}
+body.dark #Categories ,body.dark #myCarousel,body.dark #Best-Posts,body.dark #Info,body.dark #Last-Posts{
+    color: #FFF2BC !important;
+}
+body.dark .myNavbar a.nav-link:hover,body.dark a.nav-link.active {
+    background-color: #2299ff;
+    transition: .3s all ease;
+}
+body.dark #Categories a {
+    color: #fff;
+}
+body.dark #Categories h2 a:hover {
+    background-color: #2299ff;
+}
+body.dark .card a {
+    color: #000;
+    background-color: #2299ff;
+}
+/*End Main*/
+/*====================================================== End Dark Mode ========================================================*/
